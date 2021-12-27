@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #E3D2BC ;
+    --secundary-color: ;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Roboto+Slab&display=swap');
+
+body {
+  width: 100%;
+  background-image: url(../img/jinx_image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  font-family: 'Risque', cursive;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
