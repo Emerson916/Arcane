@@ -21,6 +21,12 @@ body {
   background-repeat: no-repeat; 
   font-family: 'Risque', cursive;
   font-family: 'Roboto Slab', serif;
+  user-select: none;
+}
+
+a{
+  text-decoration: none;
+
 }
 
 
