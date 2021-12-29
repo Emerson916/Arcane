@@ -8,6 +8,7 @@
     <link rel="sortcut icon" href="img/league of legends.png" type="icon/png">
     <link rel="stylesheet" type="text/css" href="css/styledGlobal.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
 
     <title>Arcane - League Of Legends</title>
 </head>
@@ -32,9 +33,22 @@
     <div class="logo">
         <img src="img/arcane.png" alt="arcane_lol" />
 
-        <a href="https://youtu.be/3MB3OK3Xnvs" target="_blank">
-            <button>ASSISTA AO TRAILER</button>
-        </a>
+        <!-- <a href="https://youtu.be/3MB3OK3Xnvs" target="_blank"> -->
+            <button id="btnTrailer">ASSISTA AO TRAILER</button>
+        <!-- </a> -->
+    </div>
+
+    <!-- Modal do trailer -->
+    <div class="modal" id="modal-video">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h1>Arcane | Trailer oficial | Netflix</h1>
+                <span class="close-button" id="close-video">&#10006;</span>
+            </header>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3MB3OK3Xnvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
     </div>
 
     
@@ -56,7 +70,7 @@
     
     
 
-
+        <script src="main.js" defer></script>
 </body>
 
 </html>
