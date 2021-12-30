@@ -4,14 +4,14 @@ header{
     margin: 20px auto 0px auto;
     display: grid;
     grid-template-columns: 15% 5% 15%;
-    cursor: pointer;
-    gap: 10px;
+    
 }
 
 .netflix{
     position: absolute;
     right: 0;
     margin-right: 5%;
+    cursor: pointer;
 }
 
 .logo{
