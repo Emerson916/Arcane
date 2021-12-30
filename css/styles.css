@@ -10,7 +10,8 @@ header{
 
 .netflix{
     position: absolute;
-    right: 250px;
+    right: 0;
+    margin-right: 5%;
 }
 
 .logo{
@@ -21,9 +22,9 @@ header{
 }
 
 .logo img{
-   width: 600px;
-   height: 225px;
-   display: flex;
+   
+   height: 175px;
+   
    margin-left: auto;
    margin-right: auto;
 }
@@ -53,26 +54,15 @@ header{
     opacity: 1.0;
 }
 
-.fundo{
-    width: 70%;
-    height: 90px;
-    background: rgba(247, 247, 247, 0.13);
-    border-radius: 20px 0px 0px 20px;
-    margin-left: auto;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    
-}
+
 
 .episodios{
     width: 500px;
     height: 120px;
     background-color: var(--primary-color);
-    border-radius: 10px 0px 0px 0px;
-    margin-left: -20px;
-    position: absolute;
-    bottom: 40px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
 }
 
@@ -117,9 +107,79 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-iframe{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+@media screen and (max-width: 800px) {
+    header{
+        width: 100%;
+        display: flex;
+        
+        padding-left: 10%;
+        gap: 30px;
+    }
+
+    .separação{
+        display: none;
+    }
+
+    .netflix{
+        position: absolute;
+        display: flex;
+        
+    }
 }
 
+@media screen and (max-width: 745px){
+    .logo img{
+        width: 350px;
+        height: 125px;
+    }
+
+    .episodios{
+        margin-bottom: 50px;
+    }
+
+    .video{
+        margin-left: 10px;
+    }
+
+    .title{
+       padding-left: 150px;
+       font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 520px){
+    header > img {
+        width: 45px;
+    }
+       
+    
+
+
+    .episodios{
+        width: 350px;
+        height: 140px;
+        margin: 0px auto 0px auto;
+    }
+
+    .title{
+        
+        
+        
+        font-size: 0.5em;
+    }
+
+    .title > p{
+        
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        justify-content: start;
+    }
+
+    
+    
+}
